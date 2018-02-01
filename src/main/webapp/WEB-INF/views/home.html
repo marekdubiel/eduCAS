@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="htttp://www.thymeleaf.org">
+<head th:replace="template :: head"> 
+</head>
+<body>
+	<h1>Witaj w systemie eduCAS</h1>
+	<a th:href="@{/fake}">dummy1</a> | 
+	<a th:href="@{/fake/fake}">dummy2</a> | 
+	<a th:href="@{/fake}">dyummy3</a>
+	
+	<div th:replace="template::foot"></div>
+</body>
+</html>
